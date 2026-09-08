@@ -21,12 +21,21 @@
 			remoteGlobalIDString = 77E6C01F3011A8E500407007;
 			remoteInfo = ChangeMe;
 		};
+		CMD0DEVICE00000000000007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77E6C0183011A8E500407007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CMD0DEVICE00000000000005;
+			remoteInfo = ChangeMeDevice;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		77E6C0203011A8E500407007 /* ChangeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E6C02D3011A8E700407007 /* ChangeMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E6C0373011A8E700407007 /* ChangeMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CMD0DEVICE00000000000001 /* ChangeMeDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeMeDevice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CMD0DEVICE00000000000002 /* ChangeMeDeviceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeMeDeviceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +52,16 @@
 		77E6C03A3011A8E700407007 /* ChangeMeUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ChangeMeUITests;
+			sourceTree = "<group>";
+		};
+		CMD0DEVICE00000000000003 /* ChangeMeDevice */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChangeMeDevice;
+			sourceTree = "<group>";
+		};
+		CMD0DEVICE00000000000004 /* ChangeMeDeviceUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChangeMeDeviceUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +88,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CMD0DEVICE0000000000000A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CMD0DEVICE0000000000000D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +111,8 @@
 				77E6C0223011A8E500407007 /* ChangeMe */,
 				77E6C0303011A8E700407007 /* ChangeMeTests */,
 				77E6C03A3011A8E700407007 /* ChangeMeUITests */,
+				CMD0DEVICE00000000000003 /* ChangeMeDevice */,
+				CMD0DEVICE00000000000004 /* ChangeMeDeviceUITests */,
 				77E6C0213011A8E500407007 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +123,8 @@
 				77E6C0203011A8E500407007 /* ChangeMe.app */,
 				77E6C02D3011A8E700407007 /* ChangeMeTests.xctest */,
 				77E6C0373011A8E700407007 /* ChangeMeUITests.xctest */,
+				CMD0DEVICE00000000000001 /* ChangeMeDevice.app */,
+				CMD0DEVICE00000000000002 /* ChangeMeDeviceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +200,51 @@
 			productReference = 77E6C0373011A8E700407007 /* ChangeMeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CMD0DEVICE00000000000005 /* ChangeMeDevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CMD0DEVICE0000000000000F /* Build configuration list for PBXNativeTarget "ChangeMeDevice" */;
+			buildPhases = (
+				CMD0DEVICE00000000000009 /* Sources */,
+				CMD0DEVICE0000000000000A /* Frameworks */,
+				CMD0DEVICE0000000000000B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CMD0DEVICE00000000000003 /* ChangeMeDevice */,
+			);
+			name = ChangeMeDevice;
+			packageProductDependencies = (
+			);
+			productName = ChangeMeDevice;
+			productReference = CMD0DEVICE00000000000001 /* ChangeMeDevice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CMD0DEVICE00000000000006 /* ChangeMeDeviceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CMD0DEVICE00000000000010 /* Build configuration list for PBXNativeTarget "ChangeMeDeviceUITests" */;
+			buildPhases = (
+				CMD0DEVICE0000000000000C /* Sources */,
+				CMD0DEVICE0000000000000D /* Frameworks */,
+				CMD0DEVICE0000000000000E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CMD0DEVICE00000000000008 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CMD0DEVICE00000000000004 /* ChangeMeDeviceUITests */,
+			);
+			name = ChangeMeDeviceUITests;
+			packageProductDependencies = (
+			);
+			productName = ChangeMeDeviceUITests;
+			productReference = CMD0DEVICE00000000000002 /* ChangeMeDeviceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +266,13 @@
 						CreatedOnToolsVersion = 26.6;
 						TestTargetID = 77E6C01F3011A8E500407007;
 					};
+					CMD0DEVICE00000000000005 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					CMD0DEVICE00000000000006 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = CMD0DEVICE00000000000005;
+					};
 				};
 			};
 			buildConfigurationList = 77E6C01B3011A8E500407007 /* Build configuration list for PBXProject "ChangeMe" */;
@@ -203,6 +292,8 @@
 				77E6C01F3011A8E500407007 /* ChangeMe */,
 				77E6C02C3011A8E700407007 /* ChangeMeTests */,
 				77E6C0363011A8E700407007 /* ChangeMeUITests */,
+				CMD0DEVICE00000000000005 /* ChangeMeDevice */,
+				CMD0DEVICE00000000000006 /* ChangeMeDeviceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +314,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		77E6C0353011A8E700407007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CMD0DEVICE0000000000000B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CMD0DEVICE0000000000000E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +358,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CMD0DEVICE00000000000009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CMD0DEVICE0000000000000C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +384,11 @@
 			isa = PBXTargetDependency;
 			target = 77E6C01F3011A8E500407007 /* ChangeMe */;
 			targetProxy = 77E6C0383011A8E700407007 /* PBXContainerItemProxy */;
+		};
+		CMD0DEVICE00000000000008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CMD0DEVICE00000000000005 /* ChangeMeDevice */;
+			targetProxy = CMD0DEVICE00000000000007 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,11 +519,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBonjourServices = "_changeme-loc._tcp";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "ChangeMe hosts a local developer location session that the physical iPhone UITest runner connects to over your LAN.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "ChangeMe uses your location to center the map on your current location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ChangeMe uses your location to center the map on your current location.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -425,11 +553,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBonjourServices = "_changeme-loc._tcp";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "ChangeMe hosts a local developer location session that the physical iPhone UITest runner connects to over your LAN.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "ChangeMe uses your location to center the map on your current location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ChangeMe uses your location to center the map on your current location.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -523,6 +655,121 @@
 			};
 			name = Release;
 		};
+		CMD0DEVICE00000000000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GCT544ZP6J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ChangeMeDevice displays the CoreLocation coordinate received during a developer location session.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WessoBesso.ChangeMeDevice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CMD0DEVICE00000000000012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GCT544ZP6J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ChangeMeDevice displays the CoreLocation coordinate received during a developer location session.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WessoBesso.ChangeMeDevice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CMD0DEVICE00000000000013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GCT544ZP6J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "ChangeMeDevice UITests connect to the ChangeMe Mac app over your local network to keep a developer location session alive.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WessoBesso.ChangeMeDeviceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = ChangeMeDevice;
+			};
+			name = Debug;
+		};
+		CMD0DEVICE00000000000014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GCT544ZP6J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "ChangeMeDevice UITests connect to the ChangeMe Mac app over your local network to keep a developer location session alive.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WessoBesso.ChangeMeDeviceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = ChangeMeDevice;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -558,6 +805,24 @@
 			buildConfigurations = (
 				77E6C0483011A8E700407007 /* Debug */,
 				77E6C0493011A8E700407007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CMD0DEVICE0000000000000F /* Build configuration list for PBXNativeTarget "ChangeMeDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CMD0DEVICE00000000000011 /* Debug */,
+				CMD0DEVICE00000000000012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CMD0DEVICE00000000000010 /* Build configuration list for PBXNativeTarget "ChangeMeDeviceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CMD0DEVICE00000000000013 /* Debug */,
+				CMD0DEVICE00000000000014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
